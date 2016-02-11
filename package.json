@@ -1,6 +1,6 @@
 {
   "name": "gulp-slang",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "Curl files to JCR using Sling",
   "license": "MIT",
   "author": {
@@ -10,6 +10,10 @@
   },
   "scripts": {
     "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnlsn/gulp-slang.git"
   },
   "files": [
     "index.js"
@@ -22,13 +26,39 @@
     "CQ"
   ],
   "dependencies": {
-    "chalk": "^0.5.1",
-    "gulp-util": "^3.0.1",
-    "jsdom": "^1.0.0-pre.6",
-    "node-curl": "^0.3.3",
-    "through2": "^0.6.1"
+    "chalk": "^1.1.1",
+    "gulp-util": "^3.0.6",
+    "request": "^2.61.0",
+    "through2": "^2.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.8"
-  }
+    "gulp": "^3.9.0"
+  },
+  "gitHead": "5bb6adb94b2d62597a8919752ddf4ff132289b3b",
+  "bugs": {
+    "url": "https://github.com/mnlsn/gulp-slang/issues"
+  },
+  "homepage": "https://github.com/mnlsn/gulp-slang",
+  "_id": "gulp-slang@0.3.1",
+  "_shasum": "31227ce8d9258c262680bb71344e9435e430e611",
+  "_from": "gulp-slang@latest",
+  "_npmVersion": "2.9.1",
+  "_nodeVersion": "0.12.3",
+  "_npmUser": {
+    "name": "mnlsn",
+    "email": "mike@mnelsonmedia.com"
+  },
+  "maintainers": [
+    {
+      "name": "mnlsn",
+      "email": "mike@mnelsonmedia.com"
+    }
+  ],
+  "dist": {
+    "shasum": "31227ce8d9258c262680bb71344e9435e430e611",
+    "tarball": "http://registry.npmjs.org/gulp-slang/-/gulp-slang-0.3.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/gulp-slang/-/gulp-slang-0.3.1.tgz",
+  "readme": "ERROR: No README data found!"
 }
