@@ -40,12 +40,10 @@ function slang(dest, opt) {
                 .indexOf('jcr_root/') + 9);
         }else{
             destPath = destPath.substring(destPath.indexOf('jcr_root') + 9,destPath.length).replace("/","\\");
-            gutil.log(destPath);
         }
 
         URL = 'http://' + USER + ':' + PASS + '@' +
             HOST + ':' + PORT + '/' + path.dirname(destPath) + ".json";
-        gutil.log(URL);
         var options = {
             url: URL,
             method: 'POST',
